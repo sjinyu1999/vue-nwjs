@@ -1,0 +1,25 @@
+{
+    "name": "your-app-name",
+    "version": "1.0.0",
+    "main": "index.html",
+    "window": {
+      "title": "Your App Title",
+      "toolbar": false,
+      "frame": true,
+      "width": 800,
+      "height": 600,
+      "position": "center",
+      "min_width": 400,
+      "min_height": 300,
+      "max_width": 1200,
+      "max_height": 800
+    },
+    "node-remote": "https://example.com/*",
+    "chromium-args": "--disable-translate",
+    "scripts": {
+      "start": "nw ."
+    },
+    "devDependencies": {
+      "nwjs": "^latest-version"
+    }
+  }
