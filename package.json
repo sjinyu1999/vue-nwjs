@@ -2,15 +2,23 @@
   "name": "vue-nwjs",
   "version": "0.0.0",
   "private": true,
+<<<<<<< HEAD
   "main": "dist/index.html",
   "type": "module",
   "scripts": {
     "dev": "vite",
+=======
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+>>>>>>> 81f8ed2eb2696b4e458a8ae00e0c018c4ee21fed
     "preview": "vite preview",
     "test:unit": "vitest",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
+<<<<<<< HEAD
     "format": "prettier --write src/",
     "start": "nw .",
     "build": "run-p type-check \"build-only {@}\" --",
@@ -19,6 +27,13 @@
   "dependencies": {
     "nwjs-builder": "1.14.0",
     "pinia": "^2.3.0",
+=======
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "pinia": "^2.3.0",
+    "vue": "^3.5.13",
+>>>>>>> 81f8ed2eb2696b4e458a8ae00e0c018c4ee21fed
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
@@ -41,7 +56,10 @@
     "vite": "^6.0.5",
     "vite-plugin-vue-devtools": "^7.6.8",
     "vitest": "^2.1.8",
+<<<<<<< HEAD
     "vue": "^3.5.13",
+=======
+>>>>>>> 81f8ed2eb2696b4e458a8ae00e0c018c4ee21fed
     "vue-tsc": "^2.1.10"
   }
 }

@@ -12,6 +12,7 @@ node版本   20+
 生成 package.json ```npm init -y```
 下载 ```npm install nw --save-dev``` 或者直接在官网下载：https://dl.nwjs.io/v0.94.1/nwjs-sdk-v0.94.1-win-x64.zip
 然后将打包的 dist 文件夹内容复制到下载的 nw 文件夹中，复制根目录中的 package.json 到 nw 文件夹中，然后运行 nw 文件夹中的 nw.exe 即可
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
